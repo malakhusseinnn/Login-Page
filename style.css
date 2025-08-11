@@ -18,16 +18,17 @@ body{
 .header{
     font-size: 40px;
     text-align: center;
-    color:   rgb(56, 69, 77);
+    color: rgb(56, 69, 77);
     padding: 20px;
     font-weight: bold;
 }
 
 .login{
-    box-shadow: 5px 5px 15px rgba(119, 136, 153, 1);
+    box-shadow: 3px 3px 10px rgba(119, 136, 153, 1);
     padding: 30px;
     text-align: center;
-    margin: 1% 20%;
+    margin: 1% auto;
+    width: 55%;
     background-color: rgba(119, 136, 153, 0.895);
     border-radius: 10px;
 }
@@ -93,6 +94,17 @@ body{
     text-align: left;
     margin-left: 10%;
     color: rgb(4, 62, 4);
+}
+
+
+@media (max-width:432px) {
+    .header{
+        font-size: 25px;
+    }
+    .login{
+        width:90%;
+    }
+    
 }
 
 
