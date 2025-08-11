@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.3/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <p class="header">Welcome!! Login First &hearts;</p>
+
+    <form class="login">
+       <div class="field">
+            <label for="first">First Name: </label>
+            <br>
+            <input type="text" id="first" class="first">
+            <br>
+            <div class="fname"></div>
+       </div>
+
+        <div class="field">
+            <label for="last">Last Name: </label>
+            <br>
+            <input type="text" id="last" class="last">
+            <br>
+            <div class="lname"></div>
+
+        </div>
+
+        <div class="field">
+            <label for="number">Phone Number: </label>
+            <br>
+            <input type="text" id="number" class="number">
+            <br>
+            <div class="num"></div>
+
+        </div>
+
+        <div class="field">
+            <label for="birth">Birth Date: </label>
+            <br>
+            <input type="text" id="birth" class="birth">
+            <br>
+            <div class="bdate"></div>
+
+        </div>
+
+        <div class="field">
+            <label for="email">Email: </label>
+            <br>
+            <input type="text" id="email" class="email">
+            <br>
+            <div class="emaill"></div>
+
+        </div>
+
+        <div class="field">
+            <label for="pass">Password: </label>
+            <br>
+            <input type="password" id="pass" class="pass">
+            <br>
+            <div class="password"></div>
+
+        </div>
+
+        <div class="field">
+            <label for="confirmed-password">Confirm Your Password: </label>
+            <br>
+            <input type="password" id="confirmed-password" class="confirmed-password">
+            <br>
+            <div class="confirmed"></div>
+
+        </div>
+
+        <button class="submit-btn">Submit</button>
+
+
+    </form>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.3/dist/sweetalert2.all.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
