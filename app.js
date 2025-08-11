@@ -194,7 +194,7 @@ form.addEventListener("submit", (e)=>{
     let testFirstName = nameRegex.test(firstName.value);
     let testLastName = nameRegex.test(lastName.value);
     let testPhoneNumber = phoneNumberRegex.test(phoneNumber.value);
-    let testBirthDate = birthDateRegex.test(birthDate.value);
+    let testBirthDate = validateBirthDate(birthDate);
     let testEmail = emailRegex.test(email.value);
     let testPassword = passwordRegex.test(password.value);
     if(testFirstName && testLastName && testPhoneNumber && testBirthDate && testEmail && testPassword && (password.value == confirmedPassword.value)){
